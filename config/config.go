@@ -19,7 +19,7 @@ import (
 )
 
 
-// 키로string 값으로 
+// 키로string 값으로 interface
 func checkOverflow(m map[string]interface{}, ctx string) error {
 	if len(m) > 0 {
 		var keys []string
